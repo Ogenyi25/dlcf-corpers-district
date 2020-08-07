@@ -1,0 +1,61 @@
+#navbar {
+  overflow: hidden;
+}
+.navbar {
+  margin-top: -5px;
+  width: 98.5vw;
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar {
+    .image {
+      margin-right: -10rem;
+      .img {
+        width: 50px;
+        height: 50px;
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .img {
+          animation: App-logo-spin infinite 5s linear;
+        }
+      }   
+      @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    }
+    .navbar-brand {
+      margin-left: -10rem;
+      color: rgb(223, 219, 11);
+      font-weight: 900;
+      strong {
+        color: rgb(223, 219, 11);
+        font-weight: 900;
+      }
+    }
+    .navlinks-section {
+      .navbar-nav {
+        .nav-link {
+          color: #fff;
+        }
+        .nav-link:hover {
+          box-shadow:0 1px 5px rgba(255, 255, 255, 0.568);
+          border-radius: 10px;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .contact-div {
+      .numbers {
+        color: #fff;
+      }
+    }
+  }
+}

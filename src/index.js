@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 
 //import styles
 
-import './styles/variables.scss'
+import './styles/church.scss'
 
 ReactDOM.render(
   <React.StrictMode>
