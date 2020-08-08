@@ -47,10 +47,10 @@ const About = () => {
                         <h4 className="name">PST.(Dr) SAMUEL OKWULU</h4>
                         <p className="details">
                             Pst. (Dr) Samuel Okwulu has served as Senior Pastor of the fellowship for 3years.
-                        He and his wife reside in New Karu, Karu L.G.A of Nasarawa State and have 1 son.<br />
-                        Pst. (Dr) Samuel Okwulu is an all round preacher who takes like his own soul, the souls of those placed
-                        under his care and control.
-                        He is a true man of God and has over the years been used and is still used of God mightily to bless his children.
+                            He and his wife reside in New Karu, Karu L.G.A of Nasarawa State and have 1 son.<br />
+                            Pst. (Dr) Samuel Okwulu is an all round preacher who takes like his own soul, the souls of those placed
+                            under his care and control.
+                            He is a true man of God and has over the years been used and is still used of God mightily to bless his children.
                         </p>
                     </div>
                 </div>
