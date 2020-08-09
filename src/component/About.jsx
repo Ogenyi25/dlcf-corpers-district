@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="about-page" id="about">
+        <div className="about-page container-fluid" id="about">
             <div className="title">WHO WE ARE</div>
             <div className="title-image">
             <img src={require("../asset/images/icon2.svg")} alt="" className="title-foto"/>

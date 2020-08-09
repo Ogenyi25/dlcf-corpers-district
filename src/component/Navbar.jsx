@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="navbar container-fluid" id="navbar">
             <nav class="navbar sticky navbar-expand-lg navbar-light row container-fluid">
-                <div className="col-md-3 container-fluid">
+                <div className="col-md-3 container-fluid left-section">
                     <div className="image">
                         <img className="img" src={require("../asset/images/logo2.png")} alt="" />
                     </div>
