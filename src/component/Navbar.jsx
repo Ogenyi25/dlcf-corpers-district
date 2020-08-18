@@ -1,37 +1,59 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import Dropdown from './Dropdown';
 
 
-const Navbar = () => {
 
-   
+const Navbar =()=> {
+    const [click, setClick] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
+
+    const handleClick = () => setClick(!click);
+
+    const closeMobileMenu = () => setClick(false);
+
     return (
-        <div className="navbar container-fluid" id="navbar">
-            <nav class="navbar sticky navbar-expand-lg navbar-light row container-fluid">
-                <div className="col-md-3 container-fluid left-section">
-                    <div className="image">
-                        <img className="img" src={require("../asset/images/logo2.png")} alt="" />
-                    </div>
-                    <Link to='/home' className="navbar-brand">DLCF <strong>Corpers District</strong></Link>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <div>
+            <nav className="navbar">
+                <Link to= '/' className="navbar-logo">
+                    DLCF CorpersDistrict
+                </Link>
+                <div className="menu-icon" onClick={handleClick}>
+                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className="nav-item">
+                        <Link to='/home' className="nav-links" onClick={closeMobileMenu}>
+                            Home
+                        </Link>
+                    </li>
 
-                <div className="col-md-6 navlinks-section">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <Link to='/home' className="nav-link">Home</Link>
-                            <Link to='/sermon' className="nav-link" >Sermons</Link>
-                            <Link to='/event' className="nav-link" >Events</Link>
-                            <Link to='/location' className="nav-link" >Locations</Link>
-                            <Link to='/contact' className="nav-link" >Contact</Link>
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-md-3 contact-div">
-                    <div className="numbers">Quick call: 08134756623, 09081046069</div>
-                </div>
+                    <li className="nav-item">
+                        <Link to='/sermon' className="nav-links" onClick={closeMobileMenu}>
+                            Sermons <i className="fas fa-caret-down" />
+                        </Link>
+                        {dropdown && <Dropdown />}
+                    </li>
+
+                    <li className="nav-item">
+                        <Link to='/event' className="nav-links" onClick={closeMobileMenu}>
+                            Our Events
+                        </Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link to='/location' className="nav-links" onClick={closeMobileMenu}>
+                            Our Locations
+                        </Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link to='/contact' className="nav-links" onClick={closeMobileMenu}>
+                            Contact Us
+                        </Link>
+                    </li>
+                </ul>
             </nav>
         </div>
     )

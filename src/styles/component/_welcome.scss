@@ -58,23 +58,24 @@
             animation: animatedBackground 20s linear infinite;
             .church-name {
                 color: #fff;
-                padding-top: 200px;
-                font-size: 33px;
+                padding-top: 100px;
+                font-size: 30px;
                 font-weight: 800;
                 text-align: center;
             }
             .location {
                 color: #fff;
                 text-align: center;
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: 600;
                 margin-top: 20px;
             }
             .motto {
                 color: #fff;
                 text-align: center;
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 500;
+                margin-top: 20px;
             }
         }
     }

@@ -5,7 +5,7 @@ const About = () => {
         <div className="about-page container-fluid" id="about">
             <div className="title">WHO WE ARE</div>
             <div className="title-image">
-            <img src={require("../asset/images/icon2.svg")} alt="" className="title-foto"/>
+                <img src={require("../asset/images/icon2.svg")} alt="" className="title-foto" />
             </div>
             <div className="sect1">
                 The heartbeat of our church is to see lives changed by the power of God's Spirit.
@@ -14,28 +14,88 @@ const About = () => {
             <div className="sect2">OUR FELLOWSHIP DNA CONSISTS OF FOUR CORE VALUES. </div>
 
             <div className="row aboutus-section container-fluid">
-                <div className=" col-md-2 aboutus-card">
-                    <h4 className="value">love</h4>
-                    <div className="body">We love God with all we are and strive to do his will daily.</div>
+                <div className=" col-md-2">
+                    <div className="aboutus-card">
+                        <h4 className="value">love</h4>
+                        <div className="body">We love God with all we are and strive to do his will daily.</div>
+                    </div>
                 </div>
 
-                <div className=" col-md-2 aboutus-card">
-                    <h4 className="value">spiritual growth</h4>
-                    <div className="body">We strive to continually grow in faith and in the word of God.</div>
+                <div className=" col-md-2">
+                    <div className="aboutus-card">
+                        <h4 className="value">spiritual growth</h4>
+                        <div className="body">We strive to continually grow in faith and in the word of God.</div>
+                    </div>
                 </div>
 
-                <div className=" col-md-2 aboutus-card">
-                    <h4 className="value">service</h4>
-                    <div className="body">We commit to displaying God's love through serving others.</div>
+                <div className=" col-md-2">
+                    <div className="aboutus-card">
+                        <h4 className="value">service</h4>
+                        <div className="body">We commit to displaying God's love through serving others.</div>
+                    </div>
                 </div>
 
-                <div className=" col-md-2 aboutus-card">
-                    <h4 className="value">evangelism</h4>
-                    <div className="body">Standing still is not an option; <strong>we must go and make a difference</strong>.</div>
+                <div className=" col-md-2">
+                    <div className="aboutus-card">
+                        <h4 className="value">evangelism</h4>
+                        <div className="body">Standing still is not an option; <strong>we must go and make a difference</strong>.</div>
+                    </div>
                 </div>
             </div>
 
             <hr className="line" />
+
+            <div className="about-fellowship container-fluid">
+                <div className="fellowship-notes">
+                    <div className="heading">
+                        welcome to church
+                    </div>
+                    <div className="notes">
+                        A church isn't a building—it's the people. We meet for weekly fellowships at different locations
+                        within the Local Government. No matter where you are, you can join us.
+                    </div>
+                </div>
+                <div className="row about-row">
+                <div className=" col-md-3 about-details">
+                    <div className="our-church">
+                        <div className="details-image">
+                            <img className="image" src={require("../asset/images/1.jpg")} alt="" />
+                        </div>
+                        <div className="detail-title">Our Church</div>
+                        <div className="detail-body">
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" col-md-3 about-details">
+                    <div className="our-church">
+                        <div className="details-image">
+                            <img className="image" src={require("../asset/images/19.jpg")} alt="" />
+                        </div>
+                        <div className="detail-title">Our History</div>
+                        <div className="detail-body">
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </div>
+                    </div>
+                </div>
+
+                <div className=" col-md-3 about-details">
+                    <div className="our-church">
+                        <div className="details-image">
+                            <img className="image" src={require("../asset/images/23.jpg")} alt="" />
+                        </div>
+                        <div className="detail-title">Our Sermons</div>
+                        <div className="detail-body">
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
 
             <div className="minister">
                 <div className="head">OUR PASTOR</div>

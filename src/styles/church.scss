@@ -3,10 +3,18 @@
 @import './screens/sermon';
 
 //styles for components
-@import './component/navbar';
 @import './component/video';
 @import './component/about';
 @import './component/welcome';
+@import './component/navbar';
+@import './component/button';
+@import './component/dropdown';
+@import './component/footer';
+
+//styles for nav in component
+@import './component/nav/navbar';
+@import './component/nav/rightnav';
+@import './component/nav/burger';
 
 //styles for sermons
 @import './sermons/songs';

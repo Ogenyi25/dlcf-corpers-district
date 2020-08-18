@@ -39,46 +39,93 @@
         }
         .aboutus-section {
             margin-top: 50px;
-            .aboutus-card {
-                border: rgba(0, 0, 0, 0.048) solid 1px;
+            .col-md-2 {
                 margin-left: auto;
                 margin-right: auto;
-                //background-image: url("https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg");
-                width: 240px;
+            }
+            .aboutus-card {
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
                 height: 300px;
                 color: #000;
                 cursor: pointer;
-                border-radius: 5px;
+                border-radius: 15px;
                 transition: ease-out .3s;
-                background-color: rgba(0, 0, 0, 0.082);
+                box-shadow: 3px 0px 30px rgba(34, 34, 34, 0.432);
+                .value {
+                    text-align: center;
+                    padding-top: 30px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                .body {
+                    padding-top: 20px;
+                    text-align: center;
+                    margin-bottom: 20px;  
+                }
             }
-            .aboutus-card:hover {
-                box-shadow: 4px 0px 40px rgba(34, 34, 34, 0.432);
-                font-size: 20px;
-                border-radius: 20px;
-                transition: ease-in .3s;
-                color: #000;
-                background-color: rgba(132, 151, 25, 0.37);
-            }
-            
         }
-        .value {
-            text-align: center;
-            margin-top: 30px;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        .body {
-            text-align: center;
-            margin-bottom: 30px;       
-            
-        }
+        
         .line {
             width: 90%;
             margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
         }
+
+        .about-fellowship {
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .fellowship-notes {
+                text-align: center;
+                max-width: 850px;
+                margin: 0 auto 50px;
+  
+                .heading {
+                    font-size: 35px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                .notes {
+                    font-size: 18px;
+                    margin: 20px
+                   
+                }
+            }
+            .about-row {
+                margin-top: 50px;
+                .about-details {
+                    margin-left: auto;
+                    margin-right: auto;
+                    .our-church {
+                        .details-image {
+                            transition: .3s ease-out;
+                            .image {
+                                width: 320px;
+                                border-radius: 15px;
+                                height: 250px;
+                            }
+                        }
+                        .details-image:hover {
+                            box-shadow: 5px 0px 50px rgba(34, 34, 34, 0.432);
+                            transition: .3s ease-in;
+                        }
+                        .detail-title {
+                            font-size: 25px;
+                            font-weight: 600;
+                            padding: 10px;
+                        }
+                        .detail-body {
+                            padding: 5px 10px;
+                        }
+                    }
+                }
+            }
+        }
+
     
         .minister {
             .head {
@@ -90,13 +137,9 @@
             }
             .minister-info {
                 .image {
-    
                 }
                 .img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    height: 400px;
+                    height: 350px;
                     width: 300px;
                     border-radius: 10px;
                 }
@@ -123,7 +166,7 @@
         margin-bottom: 50px;
         .title {
             text-align: center;
-            font-size: 40px;
+            font-size: 35px;
             font-weight: bolder;
             margin-bottom: 20px;
             padding-bottom: 20px;
@@ -164,22 +207,19 @@
                 margin-left: 33px;
                 margin-right: auto;
                 margin-bottom: 30px;
-                //background-image: url("https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg");
                 width: 90%;
                 height: 300px;
                 color: #000;
                 cursor: pointer;
                 border-radius: 5px;
                 transition: ease-out .3s;
-                background-color: rgba(36, 36, 36, 0.082);
             }
             .aboutus-card:hover {
                 box-shadow: 4px 0px 40px rgba(34, 34, 34, 0.432);
-                font-size: 20px;
+                font-size: 18px;
                 border-radius: 20px;
                 transition: ease-in .3s;
                 color: #000;
-                background-color: rgba(132, 151, 25, 0.37);
             }
             
         }
@@ -196,8 +236,8 @@
             
         }
         .line {
-            width: 90%;
-            margin-top: 50px;
+            width: 100%;
+            margin-top: 10px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -205,10 +245,10 @@
         .minister {
             .head {
                 text-align: center;
-                font-size: 35px;
+                font-size: 25px;
                 font-weight: 700;
-                margin-bottom: 70px;
-                margin-top: 100px;
+                margin-bottom: 30px;
+                margin-top: 10px;
             }
             .minister-info {
                 .image {
@@ -217,8 +257,7 @@
                 .img {
                     margin-left: 16px;
                     margin-right: auto;
-                    display: block;
-                    height: 400px;
+                    height: 300px;
                     width: 100%;
                     border-radius: 10px;
                 }
