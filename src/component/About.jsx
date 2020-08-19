@@ -48,7 +48,7 @@ const About = () => {
             <div className="about-fellowship container-fluid">
                 <div className="fellowship-notes">
                     <div className="heading">
-                        welcome to church
+                        welcome to our church
                     </div>
                     <div className="notes">
                         A church isn't a building—it's the people. We meet for weekly fellowships at different locations
