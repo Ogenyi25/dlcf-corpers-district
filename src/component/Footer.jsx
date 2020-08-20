@@ -46,6 +46,9 @@ const Footer =()=> {
                 <div className="col-md-3">
                     <div className="contact-us">
                         <div className="title">Contact Us</div>
+                        <div className="contact-options">
+                            <div className="location"><i className="fa fa-map-marker" aria-hidden="true" /> Victory</div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -25,54 +25,36 @@
         .sermon-motto {
             font-size: 30px;
             font-weight: 600;
+            margin-bottom: 100px;
+        }
+    }
+    .sermon-outline {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        min-height: 300px;
+        box-shadow: 4px 0px 40px rgba(44, 44, 44, 0.432);
+        div {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            .title {
+                font-size: 35px;
+                text-transform: capitalize;
+                font-weight: 700;
+                padding-top: 30px;
+            }
+            .body {
+                margin-top: 30px;
+                text-align: justify;
+            }
         }
     }
     .sermon-section {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        .sermon-cards {
-            margin-top: 50px;
-            .sunday {
-                margin-left: auto;
-                margin-right: auto;
-                height: 250px;
-                width: 220px;
-                border-radius: 10px;
-                border: rgba(0, 0, 0, 0.11) solid 1px;
-                border-radius: 15px;
-                transition: ease-out .3s;
-                font-size: 17px;
-                .sunday-heading {
-                    padding-top: 20px;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                }
-                .sunday-word {
-                    text-align: center;
-                    margin-top: 20px;
-                    visibility: hidden;
-                }
-                .links {
-                    margin-top: 50px;
-                    .btn {
-                        margin-top: 20px;
-                        box-shadow: 1px 0 10px rgba(0, 0, 0, 0.205);
-                    }
-                }
-            }
-            .sunday:hover {
-                .sunday-word {
-                    visibility: visible;
-                    border-radius: 15px 15px 0px 0px;
-                }
-                border-radius: 25px;
-                font-size: 20px;
-                box-shadow: 5px 0 40px rgba(0, 0, 0, 0.404);
-                transition: ease-in .3s;
-                background-color: rgba(0, 0, 0, 0.404);
-            }
-        }
     }
 }
 
@@ -110,52 +92,33 @@
                 color: #fff;
             }
         }
+        .sermon-outline {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 96%;
+            min-height: 300px;
+            box-shadow: 4px 0px 40px rgba(44, 44, 44, 0.432);
+            div {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                .title {
+                    font-size: 30px;
+                    text-transform: capitalize;
+                    font-weight: 700;
+                    padding-top: 30px;
+                }
+                .body {
+                    margin-top: 20px;
+                    text-align: justify;
+                }
+            }
+        }
         .sermon-section {
             margin-left: auto;
             margin-right: auto;
             text-align: center;
-            .sermon-cards {
-                margin-top: 50px;
-                .sunday {
-                    margin-left: auto;
-                    margin-right: auto;
-                    height: 250px;
-                    width: 90%;
-                    border-radius: 10px;
-                    border: rgba(0, 0, 0, 0.062) solid 1px;
-                    border-radius: 15px;
-                    transition: ease-out .3s;
-                    font-size: 18px;
-                    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
-                    .sunday-heading {
-                        padding-top: 20px;
-                        text-transform: uppercase;
-                        font-weight: 600;
-                    }
-                    .sunday-word {
-                        text-align: center;
-                        margin-top: 20px;
-                        visibility: visible;
-                    }
-                    .links {
-                        margin-top: 50px;
-                        .btn {
-                            margin-top: 45px;
-                            box-shadow: 1px 0 10px rgba(0, 0, 0, 0.205);
-                        }
-                    }
-                }
-                .sunday:hover {
-                    .sunday-word {
-                        border-radius: 15px 15px 0px 0px;
-                    }
-                    border-radius: 25px;
-                    font-size: 20px;
-                    box-shadow: 5px 0 40px rgba(0, 0, 0, 0.404);
-                    transition: ease-in .3s;
-                    background-color: rgba(0, 0, 0, 0.404);
-                }
-            }
         }
     }
 }
