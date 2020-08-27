@@ -47,7 +47,12 @@ const Footer =()=> {
                     <div className="contact-us">
                         <div className="title">Contact Us</div>
                         <div className="contact-options">
-                            <div className="location"><i className="fa fa-map-marker" aria-hidden="true" /> Victory</div>
+                            <div className="location"><i className="fa fa-map-marker" aria-hidden="true" />
+                                victory kiddies academy, behind matrix fuel station, koroduma, one man village, nasarawa state.
+                            </div>
+                            <div className="location"><i className="fa fa-phone" aria-hidden="true" />
+                                08134756623, 09081046069
+                            </div>
                         </div>
                     </div>
                 </div>

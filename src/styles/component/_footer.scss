@@ -35,8 +35,8 @@
                     .crose-btn {
                         -webkit-transition-duration: 500ms;
                         transition-duration: 500ms;
-                        position: relative;
-                        z-index: 1;
+                        //position: relative;
+                        //z-index: 1;
                         display: inline-block;
                         min-width: 150px;
                         height: 46px;
@@ -93,6 +93,7 @@
                 .links {
                     padding: 0px 25px;
                     .nav-links {
+                        padding-bottom: 5px;
                         display: block;
                         text-decoration: none;
                         color: rgb(214, 214, 214);
@@ -112,9 +113,26 @@
             .contact-us {
                 margin-bottom: 50px;
                 .title {
-                    padding: 30px 20px;
+                    padding: 20px 20px;
                     font-size: 18px;
                     font-weight: 700;
+                }
+                .contact-options {
+                    .location {
+                        padding-bottom: 10px;
+                        display: block;
+                        text-decoration: none;
+                        color: rgb(214, 214, 214);
+                        cursor: pointer;
+                        text-transform: capitalize;
+                        transition: .3s ease-out;
+                    }
+                    .location:hover {
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight: 700;
+                        transition: .3s ease-in;
+                    }
                 }
             }
         }
@@ -171,9 +189,8 @@
                     .crose-btn {
                         -webkit-transition-duration: 500ms;
                         transition-duration: 500ms;
-                        position: relative;
-                        z-index: 1;
-                        display: inline-block;
+                        //position: relative;
+                        //display: inline-block;
                         min-width: 150px;
                         height: 46px;
                         color: #ffffff;
@@ -252,6 +269,22 @@
                     font-size: 18px;
                     font-weight: 700;
                 }
+                .contact-options {
+                    .location {
+                        display: block;
+                        text-decoration: none;
+                        color: rgb(214, 214, 214);
+                        cursor: pointer;
+                        text-transform: capitalize;
+                        transition: .3s ease-out;
+                    }
+                    .location:hover {
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight: 700;
+                        transition: .3s ease-in;
+                    }
+                }
             }
         }
     }
@@ -260,7 +293,7 @@
         background-color: rgb(10, 2, 2);
         color: #fff;
         .footer-bottom-text {
-            font-size: 15px;
+            font-size: 14px;
             text-align: center;
             padding: 20px 0px;
         }
