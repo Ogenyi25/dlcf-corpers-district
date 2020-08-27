@@ -98,6 +98,9 @@
                         text-decoration: none;
                         color: rgb(214, 214, 214);
                         transition: .3s ease-out;
+                        .fa {
+                            margin-right: 10px;
+                        }
                     }
                     .nav-links:hover {
                         color: #fff;
@@ -126,6 +129,10 @@
                         cursor: pointer;
                         text-transform: capitalize;
                         transition: .3s ease-out;
+                        .fa {
+                            margin-right: 15px;
+                            color: #fff;
+                        }
                     }
                     .location:hover {
                         color: #fff;

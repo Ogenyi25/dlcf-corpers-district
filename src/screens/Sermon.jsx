@@ -33,8 +33,8 @@ const Sermon = () => {
                         </div>
                         <div className="col-md-6 sunday-text">
                             <h3 className="sunday-text-heading">Sunday devotional worship service messages.</h3>
-                            <p className="category">category: Worship, Christian Living</p>
-                            <p className="time">Time: 8:00am </p>
+                            <p className="category"><i className="fa fa-tags" aria-hidden="true" />category: Worship, Christian Living</p>
+                            <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 8:00am </p>
                             <div className="button">
                                 <button className="btn btn-success">Get Messages</button>
                             </div>
@@ -50,8 +50,8 @@ const Sermon = () => {
                         </div>
                         <div className="col-md-6 sunday-text">
                             <h3 className="sunday-text-heading">Sunday devotional worship service messages.</h3>
-                            <p className="category">category: Worship, Christian Living</p>
-                            <p className="time">Time: 8:00am </p>
+                            <p className="category"><i className="fa fa-tags" aria-hidden="true" />category: Worship, Christian Living</p>
+                            <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 8:00am </p>
                             <div className="button">
                                 <button className="btn btn-success">Get Messages</button>
                             </div>

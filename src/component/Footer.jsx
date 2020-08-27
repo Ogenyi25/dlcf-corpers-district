@@ -34,11 +34,11 @@ const Footer =()=> {
                     <div className="quick-links">
                         <div className="title">Quick Links</div>
                         <div className="links">
-                            <Link to='/home' className="nav-links">Home</Link>
-                            <Link to='/sermon' className="nav-links">Sermons</Link>
-                            <Link to='/event' className="nav-links">Our Events</Link>
-                            <Link to='/location' className="nav-links">Our Locations</Link>
-                            <Link to='/contact' className="nav-links">Contact Us</Link>
+                            <Link to='/home' className="nav-links"><i className="fa fa-home" aria-hidden="true" />Home</Link>
+                            <Link to='/sermon' className="nav-links"><i className="fa fa-book" aria-hidden="true" />Sermons</Link>
+                            <Link to='/event' className="nav-links"><i className="fa fa-calendar-check-o" aria-hidden="true" />Our Events</Link>
+                            <Link to='/location' className="nav-links"><i className="fa fa-map-marker" aria-hidden="true" />Our Locations</Link>
+                            <Link to='/contact' className="nav-links"><i className="fa fa-phone" aria-hidden="true" />Contact Us</Link>
                         </div>
                     </div>
                     
