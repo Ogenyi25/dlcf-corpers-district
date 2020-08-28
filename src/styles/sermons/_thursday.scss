@@ -1,0 +1,67 @@
+.thursday-messages {
+    margin: 0;
+    padding: 0;
+    .breadcrumb-container {
+        z-index: 1;
+        box-shadow: 4px 0px 40px rgba(44, 44, 44, 0.432);
+        background-color: #fff;
+        padding-top: 50px;
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: ">";
+        }
+        .breadcrumb {
+            padding: 20px 30px;
+            .breadcrumb-item {
+                text-decoration: none;
+                color: #000;
+                cursor: pointer;
+                transition: all .3s;
+                .fa {
+                    padding-top: 5px;
+                    padding-right: 5px;
+                }
+            }
+            .breadcrumb-item:hover {
+                color: rgb(224, 194, 24);
+            }
+            .active {
+                color: rgb(189, 161, 5);
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .thursday-messages {
+        margin: 0;
+        padding: 0;
+        .breadcrumb-container {
+            z-index: 1;
+            box-shadow: 4px 0px 40px rgba(44, 44, 44, 0.432);
+            background-color: #fff;
+            padding-top: 50px;
+            .breadcrumb-item + .breadcrumb-item::before {
+                content: ">";
+            }
+            .breadcrumb {
+                font-size: 14.5px;
+                padding: 20px 10px;
+                .breadcrumb-item {
+                    .fa {
+                        padding-top: 5px;
+                        padding-right: 5px;
+                    }
+                }
+                .breadcrumb-item:hover {
+                    color: rgb(224, 194, 24);
+                }
+                .active {
+                    color: rgb(189, 161, 5);
+                }
+            }
+        }
+    }
+}

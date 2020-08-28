@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Sermon = () => {
     return (
         <div className="sermon-page">
-                <Navbar />
+            <Navbar />
             <div className="sermon-welcome">
                 <div className="sermon-title">SERMONS</div>
                 <div className="sermon-motto">God's word is sharper than 2-edged sword</div>
@@ -34,7 +34,7 @@ const Sermon = () => {
                             <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Worship, Christian Living</em>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 8:00am </p>
                             <div className="button">
-                                <button className="btn btn-success">Get Messages</button>
+                                <Link to='/sunday-message' className="btn btn-success">Get Messages</Link>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Sermon = () => {
                             <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Revival, Evangelism.</em>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 6:00pm </p>
                             <div className="button">
-                                <button className="btn btn-success">Get Messages</button>
+                            <Link to='/thursday-message' className="btn btn-success">Get Messages</Link>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Sermon = () => {
                             <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Praises, Worships.</em>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: </p>
                             <div className="button">
-                                <button className="btn btn-success">Get Messages</button>
+                            <Link to='/choir-songs' className="btn btn-success">Get Messages</Link>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ const Sermon = () => {
                             <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Marriage, Youthful exhuberrance,.</em>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: Special Services </p>
                             <div className="button">
-                                <button className="btn btn-success">Get Messages</button>
+                            <Link to='/special-series' className="btn btn-success">Get Messages</Link>
                             </div>
                         </div>
                     </div>
