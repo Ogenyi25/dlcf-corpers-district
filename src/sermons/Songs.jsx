@@ -15,7 +15,16 @@ const Songs =()=> {
                 </ol>
             </nav>
             <div className="songs-welcome">
-
+                <div className="welcome-image">
+                    <div className="title">
+                        choir ministrations, singspiration and concert.
+                    </div>
+                    <div className="body">
+                        soul lifting, spirit feeling songs
+                    </div>
+                    <div className="category"><i className="fa fa-tags" aria-hidden="true" />category: Praises, Worship</div>
+                    <div className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: </div>
+                </div>
             </div>
         </div>
     )

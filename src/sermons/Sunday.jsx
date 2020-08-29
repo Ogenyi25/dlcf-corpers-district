@@ -26,21 +26,6 @@ const SundayMessage = () => {
                     <div className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 8:00am </div>
                 </div>
             </div>
-
-            <div className="row sunday-messages-section container-fluid">
-                {/**-
-                <div className="col-md-3 image">
-                    <img src={require("../asset/images/23.jpg")} alt="" className="message-image-one"/>
-                </div>
-                <div className="col-md-3 image">
-                <img src={require("../asset/images/23.jpg")} alt="" className="message-image-one"/>
-                </div>
-                <div className="col-md-3 image">
-                <img src={require("../asset/images/23.jpg")} alt="" className="message-image-one"/>
-                </div>
-                -**/}
-                
-            </div>
         </div>
     )
 }

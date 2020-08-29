@@ -15,8 +15,17 @@ const SpecialSeries =()=> {
                     <li className="breadcrumb-item active" aria-current="page">Special Series</li>
                 </ol>
             </nav>
-            <div className="sunday-message-welcome">
-
+            <div className="special-series-welcome">
+                <div className="welcome-image">
+                    <div className="title">
+                        Special seminars on contemporary issues
+                    </div>
+                    <div className="body">
+                        enabling christians to stand firm and live holy
+                    </div>
+                    <div className="category"><i className="fa fa-tags" aria-hidden="true" />category: Christian Living</div>
+                    <div className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: </div>
+                </div>
             </div>
         </div>
     )
