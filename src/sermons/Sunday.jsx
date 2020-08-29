@@ -15,7 +15,31 @@ const SundayMessage = () => {
                 </ol>
             </nav>
             <div className="sunday-message-welcome">
+                <div className="welcome-image">
+                    <div className="title">
+                        sunday worship services messsages
+                    </div>
+                    <div className="body">
+                        A time of devotional worship service.
+                    </div>
+                    <div className="category"><i className="fa fa-tags" aria-hidden="true" />category: Worship, Christian Living</div>
+                    <div className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 8:00am </div>
+                </div>
+            </div>
 
+            <div className="row sunday-messages-section container-fluid">
+                {/**-
+                <div className="col-md-3 image">
+                    <img src={require("../asset/images/23.jpg")} alt="" className="message-image-one"/>
+                </div>
+                <div className="col-md-3 image">
+                <img src={require("../asset/images/23.jpg")} alt="" className="message-image-one"/>
+                </div>
+                <div className="col-md-3 image">
+                <img src={require("../asset/images/23.jpg")} alt="" className="message-image-one"/>
+                </div>
+                -**/}
+                
             </div>
         </div>
     )
