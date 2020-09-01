@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../component/nav/Navbar';
 import { Link } from 'react-router-dom';
+import Footer from '../component/Footer';
 
 
 const Sermon = () => {
@@ -91,7 +92,7 @@ const Sermon = () => {
                     </div>
                 </div>
             </div>
-
+            <Footer />
         </div>
     )
 }

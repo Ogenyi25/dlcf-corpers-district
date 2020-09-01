@@ -106,6 +106,9 @@
                 .audio {
                     width: 100%;
                 }
+                .audio:active {
+                    border: none;
+                }
             }
             .fa {
                 margin-right: 10px;
