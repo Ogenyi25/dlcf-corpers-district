@@ -6,6 +6,9 @@ const Events =()=> {
     return (
         <div className="events-page">
             <Navbar />
+            <div className="events-section">
+                
+            </div>
         </div>
     )
 }

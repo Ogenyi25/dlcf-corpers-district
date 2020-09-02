@@ -59,7 +59,7 @@ const About = () => {
                 <div className=" col-md-3 about-details">
                     <div className="our-church">
                         <div className="details-image">
-                            <img className="image" src={require("../asset/images/1.jpg")} alt="" />
+                            <img className="image" alt="" />
                         </div>
                         <div className="detail-title">Our Church</div>
                         <div className="detail-body">
@@ -72,7 +72,7 @@ const About = () => {
                 <div className=" col-md-3 about-details">
                     <div className="our-church">
                         <div className="details-image">
-                            <img className="image" src={require("../asset/images/19.jpg")} alt="" />
+                            <img className="image" alt="" />
                         </div>
                         <div className="detail-title">Our History</div>
                         <div className="detail-body">
@@ -85,7 +85,7 @@ const About = () => {
                 <div className=" col-md-3 about-details">
                     <div className="our-church">
                         <div className="details-image">
-                            <img className="image" src={require("../asset/images/23.jpg")} alt="" />
+                            <img className="image"  alt="" />
                         </div>
                         <div className="detail-title">Our Sermons</div>
                         <div className="detail-body">

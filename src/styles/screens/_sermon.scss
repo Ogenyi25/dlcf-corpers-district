@@ -3,8 +3,8 @@
     padding: 0;
     .sermon-welcome {
         background: linear-gradient(to bottom, #000, transparent),
-        url(../../asset/images/church.jpg);
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+        url(../../asset/images/sermon-bg.jpg);
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
         color: rgb(214, 205, 205);
         background-size: cover;
         display: flex;
@@ -60,10 +60,11 @@
             margin-bottom: 100px;
             width: 100%; 
             height: 40vh; 
-            background-image: url('../../asset/images/background.png');
-            background-position: 0px 0px;
+            background: linear-gradient(to bottom, #000, transparent),
+            url('../../asset/images/background.jpg');
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+            background-size: cover;
             background-repeat: no-repeat;
-            animation: animatedBackground 10s linear infinite;
             
             .image {
                 margin: 10px 30px 10px -15px;
@@ -124,15 +125,15 @@
     .sermon-page {
         .sermon-welcome {
             background: linear-gradient(to bottom, #000, transparent),
-            url(../../asset/images/church.jpg);
-            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+            url(../../asset/images/sermon-bg.jpg);
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
             color: rgb(214, 205, 205);
             background-size: cover;
             display: flex;
             align-items: center;
             flex-direction: column;
             width: 100%;
-            min-height: 50vh;
+            min-height: 60vh;
             background-repeat: no-repeat;
             background-position: 0px 0px;
             .sermon-title {
@@ -185,8 +186,9 @@
                 margin-bottom: 30px;
                 width: 100%; 
                 height: 60vh; 
-                background-image: url('../../asset/images/background.png');
-                background-position: 0px 0px;
+                background: linear-gradient(to bottom, #000, transparent),
+                url('../../asset/images/background.jpg');
+                box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
                 background-repeat: no-repeat;
                 animation: animatedBackground 10s linear infinite;
                 

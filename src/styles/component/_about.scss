@@ -111,6 +111,10 @@
                         .details-image {
                             transition: .3s ease-out;
                             .image {
+                                background: linear-gradient(to bottom, #000, transparent),
+                                url(../../asset/images/our-church.jpg);
+                                animation: animatedBackground 4s linear infinite;
+                                box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
                                 width: 320px;
                                 border-radius: 15px;
                                 height: 250px;
