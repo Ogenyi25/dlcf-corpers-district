@@ -9,10 +9,10 @@ const Contacts = () => {
             <Navbar />
             <div className="contact-map">
                 <div className="map mb-100">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.411617306573!2d7.61085116427648!3d9.0261633915199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0601dc37f58d%3A0xa208dac46aa927cd!2sMararaba%20General%20Hospital%2C%20New%20Karu!5e0!3m2!1sen!2sng!4v1592424330091!5m2!1sen!2sng"
-                        allowfullscreen>
-                    </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4045312338317!2d7.598275714276512!3d9.026811991509891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e091fdf4efd37%3A0x9631da36e27dfeb2!2sVictory%20Kiddies%20International%20Academy%2C%20Koroduma!5e0!3m2!1sen!2sng!4v1599227232431!5m2!1sen!2sng"
+                 allowfullscreen>
+
+                </iframe>
                 </div>
             </div>
             <div className="row container-fluid contact-section">
