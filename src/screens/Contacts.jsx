@@ -30,8 +30,7 @@ const Contacts = () => {
                 </div>
                 <div className="col-md-3 contact">
                     <div className="title"><i className="fa fa-clock-o" aria-hidden="true" />Opening hours</div>
-                    <div className="email">info.dlcfcorpersdistrict@gmail.com</div>
-                    <div className="phone">08134756623, 08134756623</div>
+                    <div className="email">Fellowship Helplines are available for reach at all times.</div>
                 </div>
 
             </div>
