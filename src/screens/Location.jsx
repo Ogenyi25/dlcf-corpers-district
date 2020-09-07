@@ -19,7 +19,7 @@ const Location = () => {
                         <div className="container">
                             <div className="front side">
                                 <div className="content">
-                                    <div>CITY COLLEGE OF EDUCATION</div>
+                                    <div className="div">CITY COLLEGE OF EDUCATION</div>
                                     <p>
 			                        </p>
                                 </div>
@@ -37,7 +37,7 @@ const Location = () => {
                     <div className="container">
                             <div className="front side">
                                 <div className="content">
-                                    <div>CITY COLLEGE OF EDUCATION</div>
+                                    <div className="div">CITY COLLEGE OF EDUCATION</div>
                                     <p>
 			                        </p>
                                 </div>
@@ -55,7 +55,7 @@ const Location = () => {
                     <div className="container">
                             <div className="front side">
                                 <div className="content">
-                                    <div>CITY COLLEGE OF EDUCATION</div>
+                                    <div className="div">CITY COLLEGE OF EDUCATION</div>
                                     <p>
 			                        </p>
                                 </div>

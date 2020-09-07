@@ -66,7 +66,7 @@
                     .content {
                         transform: translatez(70px) scale(0.8);
                         line-height: 1.5em;
-                        div {
+                        .div {
                             position: relative;
                             font-size: 20px;
                             font-weight: 700;
@@ -75,7 +75,7 @@
                             margin-top: 50px;
                             line-height: 2em;
                         }
-                        h1:before {
+                        .div:before {
                             content: "";
                             position: absolute;
                             bottom: -20px;
@@ -190,14 +190,15 @@
                         .content {
                             transform: translatez(70px) scale(0.8);
                             line-height: 18px;
-                            h1 {
+                            .div {
                                 position: relative;
+                                padding-top: 30px;
                             }
                             p {
                                 margin-top: 30px;
                                 line-height: 25px;
                             }
-                            h1:before {
+                            .div:before {
                                 content: "";
                                 position: absolute;
                                 bottom: -20px;
@@ -228,7 +229,7 @@
                             min-width: 350px;
                             color: #fff;
                             font-size: 20px;
-                            padding-top: 50px;
+                            padding-top: 30px;
                             line-height: 30px;
                             .venue {
                                 padding-bottom: 20px;
