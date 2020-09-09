@@ -9,7 +9,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //import styles
-
 import './styles/church.scss'
 
 ReactDOM.render(

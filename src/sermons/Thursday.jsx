@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../component/Footer';
 
 
-const Thursday =()=> {
+const Thursday = () => {
     return (
         <div className="thursday-messages">
             <Navbar />
@@ -29,47 +29,67 @@ const Thursday =()=> {
             </div>
 
             <div className="house row container-fluid">
-                    <div className="sect col-md-3">
-                        <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
-                        <h6 className="lead">Topic: This is the topic of the message.</h6>
-                        <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
-                        <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
-                        <div className="card-body">
-                            <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
-                        </div>
+                <div className="sect col-md-3">
+                    <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
+                    <h6 className="lead">Topic: This is the topic of the message.</h6>
+                    <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
+                    <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
                     </div>
-
-                    <div className="sect col-md-3">
-                        <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
-                        <h6 className="lead">Topic: This is the topic of the message.</h6>
-                        <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
-                        <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
-                        <div className="card-body">
-                            <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
-                        </div>
-                    </div>
-
-                    <div className="sect col-md-3">
-                        <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
-                        <h6 className="lead">Topic: This is the topic of the message.</h6>
-                        <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
-                        <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
-                        <div className="card-body">
-                            <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
-                        </div>
-                    </div>
-
-                    <div className="sect col-md-3">
-                        <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
-                        <h6 className="lead">Topic: This is the topic of the message.</h6>
-                        <h6 className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</h6>
-                        <h6 className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</h6>
-                        <div className="card-body">
-                            <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
-                        </div>
+                    <div className="card-body">
+                        <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
                     </div>
                 </div>
-                <Footer />
+
+                <div className="sect col-md-3">
+                    <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
+                    <h6 className="lead">Topic: This is the topic of the message.</h6>
+                    <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
+                    <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
+                    <div className="card-body">
+                        <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
+                    </div>
+                </div>
+
+                <div className="sect col-md-3">
+                    <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
+                    <h6 className="lead">Topic: This is the topic of the message.</h6>
+                    <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
+                    <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
+                    <div className="card-body">
+                        <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
+                    </div>
+                </div>
+
+                <div className="sect col-md-3">
+                    <img className="card-img-top" src={require("../asset/images/adia.jpg")} alt="" />
+                    <h6 className="lead">Topic: This is the topic of the message.</h6>
+                    <h6 className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</h6>
+                    <h6 className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</h6>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
+                    <div className="card-body">
+                        <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
+                    </div>
+                </div>
+            </div>
+            <Footer />
         </div>
     )
 }

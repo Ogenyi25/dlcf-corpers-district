@@ -34,6 +34,11 @@ const SundayMessage = () => {
                     <h6 className="lead">Topic: This is the topic of the message.</h6>
                     <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
                     <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
                     <div className="card-body">
                         <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
                     </div>
@@ -44,6 +49,11 @@ const SundayMessage = () => {
                     <h6 className="lead">Topic: This is the topic of the message.</h6>
                     <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
                     <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
                     <div className="card-body">
                         <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
                     </div>
@@ -54,6 +64,11 @@ const SundayMessage = () => {
                     <h6 className="lead">Topic: This is the topic of the message.</h6>
                     <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</div>
                     <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</div>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
                     <div className="card-body">
                         <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
                     </div>
@@ -64,6 +79,11 @@ const SundayMessage = () => {
                     <h6 className="lead">Topic: This is the topic of the message.</h6>
                     <h6 className="preacher"><i className="fa fa-user" aria-hidden="true" />Minister: Name of the preacher.</h6>
                     <h6 className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</h6>
+                    <div className="icons">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </div>
                     <div className="card-body">
                         <audio controls className="audio" src={require("../asset/audios/adia.mp3")}></audio>
                     </div>

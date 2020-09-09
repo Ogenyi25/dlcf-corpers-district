@@ -102,6 +102,23 @@
             display: block;
             margin-bottom: 10px;
             }
+            .icons {
+                margin-top: 20px;
+                .fa {
+                    padding: 10px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    border: 1px solid #dddddd;
+                    color: rgba(44, 44, 44, 0.432);
+                    transition: .4s ease-out;
+                }
+                .fa:hover {
+                    background: goldenrod;
+                    color: #fff;
+                    transition: .4s ease-in;
+                }
+            }
             .card-body {
                 .audio {
                     width: 100%;

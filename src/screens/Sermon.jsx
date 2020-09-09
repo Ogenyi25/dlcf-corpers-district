@@ -32,7 +32,7 @@ const Sermon = () => {
                         </div>
                         <div className="col-md-6 sunday-text">
                             <h3 className="sunday-text-heading">Sunday devotional worship service messages.</h3>
-                            <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Worship, Christian Living</em>
+                            <p className="category"><i className="fa fa-tags" aria-hidden="true" />category: Worship, Christian Living</p>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 8:00am </p>
                             <div className="button">
                                 <Link to='/sunday-message' className="btn btn-success">Get Messages</Link>
@@ -49,7 +49,7 @@ const Sermon = () => {
                         </div>
                         <div className="col-md-6 sunday-text">
                             <h3 className="sunday-text-heading">thursday revival hour and evangelism messages.</h3>
-                            <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Revival, Evangelism.</em>
+                            <p className="category"><i className="fa fa-tags" aria-hidden="true" />category: Revival, Evangelism.</p>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: 6:00pm </p>
                             <div className="button">
                             <Link to='/thursday-message' className="btn btn-success">Get Messages</Link>
@@ -66,7 +66,7 @@ const Sermon = () => {
                         </div>
                         <div className="col-md-6 sunday-text">
                             <h3 className="sunday-text-heading">Choir Ministrations, Signspiration and Concerts.</h3>
-                            <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Praises, Worships.</em>
+                            <p className="category"><i className="fa fa-tags" aria-hidden="true" />category: Praises, Worships.</p>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: </p>
                             <div className="button">
                             <Link to='/choir-songs' className="btn btn-success">Get Messages</Link>
@@ -83,7 +83,7 @@ const Sermon = () => {
                         </div>
                         <div className="col-md-6 sunday-text">
                             <h3 className="sunday-text-heading">special seminar sessions on contemporary issues.</h3>
-                            <em className="category"><i className="fa fa-tags" aria-hidden="true" />category: Marriage, Youthful exhuberrance,.</em>
+                            <p className="category"><i className="fa fa-tags" aria-hidden="true" />category: Marriage, Youthful exhuberrance,.</p>
                             <p className="time"><i className="fa fa-clock-o" aria-hidden="true" />Time: Special Services </p>
                             <div className="button">
                             <Link to='/special-series' className="btn btn-success">Get Messages</Link>
