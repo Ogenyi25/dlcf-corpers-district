@@ -45,6 +45,7 @@
             margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 50px;
             .container {
                 min-width: 350px;
                 min-height: 250px;
@@ -59,7 +60,7 @@
                     width: 100%;
                     height: 100%;
                     padding: 0px 20px;
-                    color: #fff;
+                    color: #808080;
                     transform-style: preserve-3d;
                     backface-visibility: hidden;
                     border-radius: 20px;
@@ -99,7 +100,8 @@
                     background-size: 100vh;
                     background-size: cover;
                     //background-image: url(https://livewallpaperhd.com/wp-content/uploads/2017/07/Dark-Elegant-Wallpaper.jpg);
-                    background-color: #000;
+                    background-color: #fff;
+                    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.5);
                 }
                 .back {
                     background-color: #333;

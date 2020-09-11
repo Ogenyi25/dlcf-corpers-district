@@ -19,7 +19,7 @@ const Location = () => {
                         <div className="container">
                             <div className="front side">
                                 <div className="content">
-                                    <div className="div">CITY COLLEGE OF EDUCATION</div>
+                                    <div className="div">CITY COLLEGE DISTRICT</div>
                                     <p className="p">
 			                        </p>
                                 </div>
@@ -37,7 +37,7 @@ const Location = () => {
                     <div className="container">
                             <div className="front side">
                                 <div className="content">
-                                    <div className="div">CITY COLLEGE OF EDUCATION</div>
+                                    <div className="div">WOLEX DISTRICT</div>
                                     <p className="p">
 			                        </p>
                                 </div>
@@ -55,7 +55,27 @@ const Location = () => {
                     <div className="container">
                             <div className="front side">
                                 <div className="content">
-                                    <div className="div">CITY COLLEGE OF EDUCATION</div>
+                                    <div className="div">INNOVATIVE DISTRICT</div>
+                                    <p className="p">
+			                        </p>
+                                </div>
+                            </div>
+                            <div className="back side">
+                                <div className="content">
+                                    <div className="venue"><i className="fa fa-map-marker" aria-hidden="true" />Location: This is the location of the venue</div>
+                                    <div className="contact"><i className="fa fa-phone" aria-hidden="true" />Contact: This is the contact of the fellowship</div>
+		                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row container-fluid">
+                    <div className="location col-md-3">
+                        <div className="container">
+                            <div className="front side">
+                                <div className="content">
+                                    <div className="div">CITY COLLEGE DISTRICT</div>
                                     <p className="p">
 			                        </p>
                                 </div>
@@ -67,6 +87,41 @@ const Location = () => {
 		                        </div>
                             </div>
 
+                        </div>
+                    </div>
+                    <div className="location col-md-3">
+                    <div className="container">
+                            <div className="front side">
+                                <div className="content">
+                                    <div className="div">WOLEX DISTRICT</div>
+                                    <p className="p">
+			                        </p>
+                                </div>
+                            </div>
+                            <div className="back side">
+                                <div className="content">
+                                    <div className="venue"><i className="fa fa-map-marker" aria-hidden="true" />Location: This is the location of the venue</div>
+                                    <div className="contact"><i className="fa fa-phone" aria-hidden="true" />Contact: This is the contact of the fellowship</div>
+		                        </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="location col-md-3">
+                    <div className="container">
+                            <div className="front side">
+                                <div className="content">
+                                    <div className="div">INNOVATIVE DISTRICT</div>
+                                    <p className="p">
+			                        </p>
+                                </div>
+                            </div>
+                            <div className="back side">
+                                <div className="content">
+                                    <div className="venue"><i className="fa fa-map-marker" aria-hidden="true" />Location: This is the location of the venue</div>
+                                    <div className="contact"><i className="fa fa-phone" aria-hidden="true" />Contact: This is the contact of the fellowship</div>
+		                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>
