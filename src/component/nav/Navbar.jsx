@@ -7,7 +7,7 @@ const Navbar =()=> {
         <div className="navbar sticky">
             <div className="image">
                 <img className="img" src={require("../../asset/images/logo2.png")} alt="" />
-               DLCF Corpers District
+                DLCF Corpers District
             </div>
             <Burger />
         </div>

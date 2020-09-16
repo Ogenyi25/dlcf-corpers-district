@@ -6,7 +6,6 @@ const Welcome = () => {
         <div className="background-image">
           <div className="church-name">Deeper Life Campus Fellowship</div>
           <div className="location">Corpers District (Karu Region)</div>
-          <div className="motto">your spiritual welfare is our concern</div>
           <input type="text" className="search" placeholder="Search for messages, songs, e.t.c" />
           <button className="btn">Search</button>
           <div className="bible-passage">
