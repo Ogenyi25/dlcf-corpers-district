@@ -35,8 +35,6 @@ const Songs = () => {
                     <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Choir: Corpers District Choir.</div>
                     <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Song category.</div>
                     <div className="icons">
-                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                        <i class="fa fa-headphones" aria-hidden="true"></i>
                         <i class="fa fa-file" aria-hidden="true"></i>
                     </div>
                     <div className="card-body">
@@ -50,8 +48,6 @@ const Songs = () => {
                     <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Choirs: Corpers District Choir.</div>
                     <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Song category.</div>
                     <div className="icons">
-                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                        <i class="fa fa-headphones" aria-hidden="true"></i>
                         <i class="fa fa-file" aria-hidden="true"></i>
                     </div>
                     <div className="card-body">
@@ -65,8 +61,6 @@ const Songs = () => {
                     <div className="preacher"><i className="fa fa-user" aria-hidden="true" />Choir: Corpers District Choir.</div>
                     <div className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Song category.</div>
                     <div className="icons">
-                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                        <i class="fa fa-headphones" aria-hidden="true"></i>
                         <i class="fa fa-file" aria-hidden="true"></i>
                     </div>
                     <div className="card-body">
@@ -80,8 +74,6 @@ const Songs = () => {
                     <h6 className="preacher"><i className="fa fa-user" aria-hidden="true" />Choir: Corpers District Choir.</h6>
                     <h6 className="catergory"><i className="fa fa-tags" aria-hidden="true" />Category: Message category.</h6>
                     <div className="icons">
-                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                        <i class="fa fa-headphones" aria-hidden="true"></i>
                         <i class="fa fa-file" aria-hidden="true"></i>
                     </div>
                     <div className="card-body">
